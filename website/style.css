@@ -1,0 +1,85 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #502bb4;
+  background-image: url(image/n23.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 200px;
+  max-width: 1200px;
+  background-image: url(image/mountain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid: auto / 1fr;
+  row-gap: 0.5rem;
+  padding: 2rem;
+  font-size: 2rem;
+  min-height: 30rem;
+  max-height: 100vh;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+    height: 30px;
+    width: 210px;
+    background: transparent;
+    color: #502bb4;
+    font-size: 20px;
+    border-radius: 100px;
+    border: ridge;
+    border-color: thistle;
+}
+
+button {
+  width: 61px;
+  height: 30px;
+  background: #ad96eb ;
+  color: #502bb4;
+  border: none;
+  box-shadow: 1px 0px 3px 2px #645f74ad;
+  border-radius: 50px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  padding: 0.5rem;
+  max-height: 10rem;
+  min-height: 9rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  color: #502bb4;
+}
+
+
+::placeholder {
+   color: #d0b4dc
+   ; 
+}
